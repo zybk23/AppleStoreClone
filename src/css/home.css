@@ -1,0 +1,27 @@
+#home {
+    margin-top: 90px;
+    background-color: #FAFAFA;
+}
+
+.icon1{
+    font-size: 25px;
+    color:#fff;
+}
+.icon2{
+    font-size: 25px;
+    color: #2CC096;
+}
+
+.dropdown{
+    margin-top: -20px;
+}
+
+.dropdown-menu{
+    margin-right: 50%;
+}
+
+@media screen and (max-width: 768px){
+    .dropdown-menu{
+      margin-left: -100px;
+    }
+}

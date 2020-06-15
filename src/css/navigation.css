@@ -1,0 +1,113 @@
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    background-color: #333333;
+    align-items: center;
+    min-length:8vh;
+    font-family: 'Lora', serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.logo{
+    color:rgb(226,226,226);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width:45%
+}
+
+
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color:#CDCDCD;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 13px;
+}
+#menu {
+    display: none;
+    cursor:pointer;
+}
+#menu div {
+    width:25px;
+    height: 3px;
+    background-color: rgb(226,226,226);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1124px){
+    .nav-links {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right:0;
+        height: 92vh;
+        top:100%;
+        background-color: #333333;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 38%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        z-index: 1;
+    }
+    nav #cart{
+        transform: translateX(-160px);
+        margin-top: 8px;
+    }
+
+    .nav-links li{
+        opacity: 0;
+    }
+    #menu{
+        display: block;
+        transform: translateX(550%);
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from{
+        opacity:0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line-1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line-2{
+    opacity: 0;
+}
+.toggle .line-3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}

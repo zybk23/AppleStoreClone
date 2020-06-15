@@ -1,0 +1,42 @@
+
+
+#order .card{
+    margin-top: 100px;
+    width: 80%;
+}
+
+#order button{
+    color:black;
+    width:30%;
+    background-color: #FEA501;
+    border-color: #FEA501;
+}
+#order .card-header {
+    background-color: #DEE0E2;
+    align-items: center;
+}
+#order .card-header h3{
+    font-size: 15px;
+}
+
+#order p{
+    margin: 0 auto;
+}
+#order img{
+    width: 60px;
+    float: left;
+    height: 60px;
+    object-fit: scale-down;
+}
+
+@media screen and (max-width: 968px){
+    #order .card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #order .card{
+        width: 100%;
+    }
+}

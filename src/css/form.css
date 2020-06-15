@@ -1,0 +1,23 @@
+
+
+#form input , #form textarea {
+    width: 80%;
+}
+
+#form button{
+    width: 30%;
+    color:black
+}
+#form .card{
+    width: 80%;
+    background-color:#DEE0E2;
+}
+
+@media screen and (max-width: 768px){
+    #form input , #form textarea {
+        width: 100%;
+    }
+    #form .card {
+        width: 100%;
+    }
+}

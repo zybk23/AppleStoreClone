@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Taha Zeybek",
+      "email": "tahazeybek5@gmail.com",
+      "password": "maraz1264"
+    },
+    {
+      "name": "habil",
+      "email": "ammar@gmail.com",
+      "password": "159654",
+      "id": 2
+    },
+    {
+      "name": "Taha Zeybek",
+      "email": "tahazeybek5@gmail.com",
+      "password": "maraz1264",
+      "id": 3
+    },
+    {
+      "email": "tahazeybek5@gmail.com",
+      "password": "fswegfsgs",
+      "id": 4
+    },
+    {
+      "email": "tahazeybek5@gmail.com",
+      "password": "şü",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 11",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone11-purple-select-2019_GEO_EMEA?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1567021766320",
+      "price": 900,
+      "unitInStock": 10,
+      "color": "gold",
+      "type": "phone",
+      "description": "The iPhone 11 dimensions are 150.9mm x 75.7mm x 8.3mm (H x W x D). "
+    },
+    {
+      "id": 2,
+      "name": "iPad",
+      "image": "https://cdn.akakce.com/apple/apple-ipad-wi-fi-uzay-grisi-mr7j2tu-a-128-gb-9-7-z.jpg",
+      "price": 1200,
+      "unitInStock": 10,
+      "color": "black",
+      "type": "ipad",
+      "description": "The iPhone 11 dimensions are 150.9mm x 75.7mm x 8.3mm (H x W x D). "
+    },
+    {
+      "id": 3,
+      "name": "iPhone X",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-xr-blue-select-201809?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1565209264208",
+      "price": 750,
+      "unitInStock": 10,
+      "color": "gold",
+      "type": "phone",
+      "description": "The iPhone 11 dimensions are 150.9mm x 75.7mm x 8.3mm (H x W x D). "
+    },
+    {
+      "id": 4,
+      "name": "iPhone-11 Pro",
+      "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-11-pro-midnight-green-select-2019_AV2?wid=400&hei=400&fmt=png-alpha&qlt=80&.v=1567041204121",
+      "price": 1100,
+      "unitInStock": 10,
+      "color": "red",
+      "type": "phone",
+      "description": "The iPhone 11 dimensions are 150.9mm x 75.7mm x 8.3mm (H x W x D). "
+    },
+    {
+      "id": 5,
+      "name": "Apple Watch 4",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/38-alu-space-sport-black-1up?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1539016141387",
+      "price": 350,
+      "unitInStock": 10,
+      "color": "gold",
+      "type": "watch",
+      "description": "The iPhone 11 dimensions are 150.9mm x 75.7mm x 8.3mm (H x W x D). "
+    },
+    {
+      "name": "Iphone 8",
+      "image": "https://www.freeiconspng.com/uploads/iphone-x-and-iphone-8-png-12.png",
+      "price": "760",
+      "unitInStock": "20",
+      "color": "black",
+      "type": "phone",
+      "description": "iphone8",
+      "id": 6
+    },
+    {
+      "name": "iPad Pro",
+      "image": "https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/ipad-pro-12-select-wifi-silver-201810_FMT_WHH?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1576264063111",
+      "price": "3500",
+      "unitInStock": "28",
+      "color": "gold",
+      "type": "ipad",
+      "description": "Apple iPad Pro 11 inç 1 TB 4G Uzay Grisi Fiyatlar",
+      "id": 7
+    },
+    {
+      "name": "Apple Watch 5",
+      "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/38-alu-space-sport-black-1up?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1539016141387",
+      "price": "1000",
+      "unitInStock": "28",
+      "color": "gold",
+      "type": "watch",
+      "description": "En son fiyatları ve oda durumunu öğrenmek için web sitesini kontrol edin.",
+      "id": 8
+    }
+  ]
+}
